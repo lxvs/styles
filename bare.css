@@ -18,6 +18,51 @@ p.subtitle {
     font-style: italic;
 }
 
+blockquote, p.note, p.important, p.info {
+    padding-left: 0.5em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    border-left-style: solid;
+}
+
+p.note, p.important, p.info {
+    border-width: 0.5em;
+}
+
+blockquote {
+    border-width: 0.25em;
+    border-color: gray;
+    color: dimgray;
+}
+
+p.note {
+    background-color: hsl(0, 0%, 90%);
+    border-color: hsl(0, 0%, 60%);
+}
+
+p.important {
+    background-color: hsl(32, 40%, 90%);
+    border-color: hsl(32, 40%, 60%);
+}
+
+p.info {
+    background-color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 70%);
+}
+
+p.note::before, p.important::before {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+p.note::before {
+    content: "Note: ";
+}
+
+p.important::before {
+    content: "Important: ";
+}
+
 pre {
     line-height: 150%;
     margin-left: 1em;
