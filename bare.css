@@ -18,6 +18,33 @@ p.subtitle {
     font-style: italic;
 }
 
+.toc {
+    padding: 0;
+}
+
+.toc ul {
+    padding-left: 1em
+}
+
+.toc li {
+    line-height: 150%;
+    font-family: sans-serif;
+    list-style-type: none;
+}
+
+.toc > li {
+    font-weight: bold;
+    text-indent: 0;
+}
+
+.toc a {
+    text-decoration: none;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+}
+
 blockquote, p.note, p.important, p.info {
     padding-left: 0.5em;
     padding-top: 0.25em;
