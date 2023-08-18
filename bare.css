@@ -63,6 +63,11 @@ p.important::before {
     content: "Important: ";
 }
 
+a.red {
+    color: brown;
+    cursor: not-allowed;
+}
+
 .index a {
     display: inline-block;
     font-family: monospace;
