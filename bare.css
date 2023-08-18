@@ -125,6 +125,10 @@ pre {
     overflow-x: auto;
 }
 
+code.dollar::before {
+    content: "$ "
+}
+
 section {
     margin-top: 2em;
 }
