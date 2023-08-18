@@ -121,6 +121,10 @@ address {
     margin-top: 5rem;
 }
 
+figure {
+    margin: 2em auto;
+}
+
 img {
     display: block;
     max-width: 100%;
