@@ -8,6 +8,10 @@ html {
     padding-bottom: 2rem;
 }
 
+body {
+    counter-reset: figures;
+}
+
 p.subtitle {
     font-size: large;
     font-family: sans-serif;
@@ -54,5 +58,10 @@ img {
 
 figcaption {
     text-align: center;
-    font-style: italic;
+}
+
+figcaption::before {
+    counter-increment: figures;
+    content: "Figure " counter(figures) ". ";
+    font-weight: bold;
 }
