@@ -115,6 +115,7 @@ a.red {
     padding-left: 5px;
     padding-right: 5px;
     text-decoration: none;
+    line-height: normal;
 }
 
 pre {
