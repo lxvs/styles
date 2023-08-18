@@ -63,6 +63,16 @@ p.important::before {
     content: "Important: ";
 }
 
+.index a {
+    display: inline-block;
+    font-family: monospace;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
 pre {
     line-height: 150%;
     margin-left: 1em;
