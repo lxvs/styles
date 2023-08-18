@@ -44,3 +44,15 @@ th, td {
 address {
     margin-top: 5rem;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
