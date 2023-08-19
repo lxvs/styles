@@ -45,6 +45,24 @@ p.subtitle {
     text-decoration: underline;
 }
 
+div.redirecting, div.redirecting-external {
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+div.redirecting {
+    border-color: hsl(0, 0%, 70%);
+    background-color: hsl(0, 0%, 95%);
+}
+
+div.redirecting-external {
+    border-color: hsl(32, 40%, 70%);
+    background-color: hsl(32, 40%, 95%);
+}
+
 blockquote, p.note, p.important, p.info {
     padding-left: 0.5em;
     padding-top: 0.25em;
@@ -91,7 +109,8 @@ p.important::before {
 }
 
 article a[href^="http://"]::after,
-article a[href^="https://"]::after {
+article a[href^="https://"]::after,
+div.redirecting-external a::after {
     display: inline-block;
     content: "";
     width: 1em;
