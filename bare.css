@@ -45,6 +45,10 @@ p.subtitle {
     font-style: italic;
 }
 
+footer.time {
+    font-style: italic;
+}
+
 .toc {
     padding: 0;
 }
