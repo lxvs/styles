@@ -63,7 +63,7 @@ footer.time {
     list-style-type: none;
 }
 
-.toc > li {
+.toc > ul > li {
     font-weight: bold;
     text-indent: 0;
 }
