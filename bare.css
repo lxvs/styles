@@ -183,6 +183,22 @@ section {
     margin-top: 2em;
 }
 
+section:target {
+    animation: 2.5s fade;
+}
+
+@keyframes fade {
+    0% {
+        background-color: #ffff0040;
+    }
+    20% {
+        background-color: #ffff0040;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
 h1, h2, h3 {
     margin-top: 2em;
     font-family: sans-serif;
