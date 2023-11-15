@@ -84,21 +84,13 @@ footer.time {
     text-decoration: underline;
 }
 
-div.redirecting, div.redirecting-external {
+div.redirecting {
     font-size: large;
     text-align: center;
     border: 2px solid;
     border-radius: 10px;
-}
-
-div.redirecting {
     border-color: hsl(0, 0%, 70%);
     background-color: hsl(0, 0%, 95%);
-}
-
-div.redirecting-external {
-    border-color: hsl(32, 40%, 70%);
-    background-color: hsl(32, 40%, 95%);
 }
 
 blockquote, p.note, p.important, p.info {
@@ -145,9 +137,8 @@ p.important::before {
     content: "Important: ";
 }
 
-article a[href^="http://"]::after,
-article a[href^="https://"]::after,
-div.redirecting-external a::after {
+a[href^="http://"]::after,
+a[href^="https://"]::after {
     display: inline-block;
     content: "";
     width: 1em;
