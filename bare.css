@@ -208,6 +208,19 @@ h4 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+dt {
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+
+code {
+    font-weight: bold;
+}
+
+pre > code {
+    font-weight: unset;
+}
+
 table {
     margin-left: 1em;
     margin-right: 1em;
